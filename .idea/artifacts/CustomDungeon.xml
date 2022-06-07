@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="CustomDungeon">
+    <output-path>$PROJECT_DIR$/out/artifacts/CustomDungeon</output-path>
+    <root id="archive" name="CustomDungeon.jar">
+      <element id="module-output" name="CustomDungeon" />
+    </root>
+  </artifact>
+</component>

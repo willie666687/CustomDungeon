@@ -1,0 +1,14 @@
+name: CustomDungeon
+version: '${project.version}'
+main: willie.customdungeon.CustomDungeon
+api-version: 1.18
+authors: [ willie ]
+description: A custom dungeon plugin
+commands:
+  customdungeon:
+    aliases:
+      - "cd"
+    usage: "/customdungeon <String>"
+    description: "custom dungeon commands"
+    permission: "customdungeon.create.dungeon"
+    permission-message: "Only OP can do that!"
